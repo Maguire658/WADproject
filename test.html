@@ -1,0 +1,211 @@
+<!DOCTYPE <html>
+<head>
+	<title>Websummit Staff app</title>
+	<link rel="stylesheet" type="text/css" href="bootstrap-3.3.5-dist/bootstrap-3.3.5-dist/css/bootstrap.min.css"/>
+	<link rel="stylesheet" type="text/css" href="">
+	<link rel="stylesheet" type="text/css" href="CSS/style.css"/>
+	
+
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+   <!--  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js">
+     
+    </script> -->
+<!--- Links jquery internally, a makes use of Jquery UI for widgits -->
+
+     <script type="text/javascript" src="jquery-ui-1.11.4.custom/external/jquery/jquery.js"></script>
+     <script type="text/javascript" src="jquery-ui-1.11.4.custom/jquery-ui.min.js"></script>
+
+      <script type="text/JavaScript" src="JS/dropDownBehaviour.js" ></script>
+      <script type="text/JavaScript" src="JS/DragAndDropbehaviour.js" ></script>
+
+</head>
+
+<!-- This is a test page which you can experitment with -->
+<body>
+   <nav class = "navbar-fixed-top navbar-inverse" id = "topnav">
+       <div class="container-fluid">
+          
+               <button class = "navbar-toggle" data-toggle = "collapse" data-target = ".navCollapse">
+               	  
+                <span class="glyphicon glyphicon-th-list" aria-hidden="true"></span>
+
+               </button>
+           
+
+           <div class="collapse navbar-collapse navCollapse" id = "navClass"> 
+ 				<ul class = "nav navbar-nav navbar-right" id="topNav">
+                    <li class = "navPad dropdown" id="dropdown"><a href="#">
+                    <span class="glyphicon glyphicon-globe" aria-hidden="true"></span>
+                    Notifications </a>
+                   		 <ul id = "dropdownNav" class="dropdown-menu">
+                    		<li><a href="">1 New notification</a></li>
+                    		<li><a href="">Ste has been creeping on you</a></li>
+                    	</ul>
+                    </li>
+                    <li class= "navPad" id = "dropable"><a href="#"><span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
+                    	Fav's</a></li>
+                   
+
+ 				</ul>
+           </div>
+
+       </div>
+
+	</nav>
+	
+		 <!-- COLLUM -->
+<div class="collum">
+
+<div class="vid small draggable"  >
+  <div class="top"> 
+  text
+  </div>
+  <div class="center">
+</div>
+  <div class="bottom">
+  info
+  </div>
+  </div>
+
+<div class="vid small draggable"  >
+            <div class="top"> 
+			text
+  </div>
+  <div class="center">
+</div>
+<div class="bottom">
+info
+  </div>
+</div>
+
+<div class="vid small draggable"  >
+            <div class="top"> 
+			text
+  </div>
+  <div class="center draggable">
+</div>
+<div class="bottom">
+info
+  </div>
+</div>
+
+</div>
+
+<!--COLLUM 2 -->
+<div class="collum">
+
+<div class="vid small draggable"  >
+  <div class="top"> 
+  storage
+  </div>
+  <div class="center">
+</div>
+<div class="bottom">
+info
+  </div>
+  </div>
+
+<div class="vid small draggable"  >
+        <div class="top"> 
+		text
+  </div>    
+  <div class="center">
+</div>
+<div class="bottom">
+info
+  </div>
+</div>
+
+<div class="vid small draggable"  >
+         <div class="top"> 
+		 text
+  </div>   
+  <div class="center">
+</div>
+<div class="bottom">
+info
+  </div>
+  
+</div>
+
+</div>
+
+<!-- COLLUM 3 -->
+<div class="collum">
+
+<div class="vid small draggable"  >
+  <div class="top"> 
+  text
+  </div>
+  <div class="center">
+</div>
+<div class="bottom">
+info
+  </div>
+  
+  </div>
+
+<div class="vid small draggable"  >
+            <div class="top"> 
+			text
+  </div>
+<div class="center">
+</div>
+<div class="bottom">
+info
+  </div>
+</div>
+
+<div class="vid small draggable"  >
+            <div class="top"> 
+			text
+  </div>
+  <div class="center">
+</div>
+<div class="bottom">
+info
+  </div>
+</div>
+
+</div>
+
+
+
+
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script type="text/javascript">
+
+    </script>
+
+      <script src="bootstrap-3.3.5-dist/bootstrap-3.3.5-dist/js/bootstrap.min.js"></script>
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+
+
+<script> $(".vid").hover( function() {
+    $(this).toggleClass('small');
+});
+
+
+$("#fs").hover( function() {
+    $(".vid").get(0).webkitEnterFullScreen();
+    $(".vid").removeClass('small');
+});
+</script>
+
+
+	  
+	  
+	  
+	  
+</body>
+</html>

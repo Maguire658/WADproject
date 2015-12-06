@@ -1,0 +1,30 @@
+<?xml version='1.0'?>
+<rss version="2.0">
+	<channel>
+		<title>WebSite RSS feed</title>
+		<link>#</link>
+		<item>
+			<link>https://blog.websummit.net/five-highlights-from-web-summit-workshops/</link>
+		</item>
+		<item>
+			<title>
+				Five highlights from Web Summit workshops 2
+			</title>
+			<link>https://blog.websummit.net/five-highlights-from-web-summit-workshops/</link>
+			<image>../images/websumitimg.jpg</image>
+			<description>
+				this is a small description of the content 2
+			</description>
+		</item>
+		<item>
+			<title>
+				Five highlights from Web Summit workshops 3
+			</title>
+			<link>https://blog.websummit.net/five-highlights-from-web-summit-workshops/</link>
+			<image>../images/websumitimg.jpg</image>
+			<description>
+				this is a small description of the content 3
+			</description>
+		</item>
+	</channel>
+</rss>
