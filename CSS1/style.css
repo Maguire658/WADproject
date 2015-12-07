@@ -1,0 +1,410 @@
+/* Style for top nav */
+
+.navPad{
+	padding-right:20px;
+	color:white;
+	margin-bottom:10px;
+}
+#sidebuttons{
+	width:100%;
+}
+
+
+#rssfeed{
+
+	width: 92%;
+
+	position: absolute;
+	top: 370px;
+	left:10px;
+
+
+}
+
+.btndesign{
+	width:90%;
+	height:40px;
+	margin-top:10px;
+	border-radius: 12px;
+	list-style: none;
+	background: -webkit-gradient(linear, left top, left bottom, from(rgba(110, 110, 110, 0.69)), to(rgba(0, 0, 0, 0.57)));
+	background: -moz-linear-gradient(top, rgba(110, 110, 110, 0.69), rgba(0, 0, 0, 0.57));
+	background:rgba(0, 0, 0, 0) -moz-linear-gradient(center top , rgba(110, 110, 110, 0.69), rgba(0, 0, 0, 0.57)) repeat scroll 0% 0%;
+	background: -ms-linear-gradient(top, rgb(110, 110, 110), rgb(0, 0, 0));
+	text-align:center;
+	opacity: 0.99;
+}
+	.btndesign:hover{
+		background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.57)), to(rgba(110, 110, 110, 0.69)));
+		background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.57), rgba(110, 110, 110, 0.69));
+		background:rgba(0, 0, 0, 0) -moz-linear-gradient(center top , rgba(0, 0, 0, 0.57), rgba(110, 110, 110, 0.69)) repeat scroll 0% 0%;
+		background: -ms-linear-gradient(top, rgb(110, 110, 110), rgb(0, 0, 0));
+		cursor:pointer;	
+	}
+		.btnfont{
+			position:relative;
+			top:9px;
+			color:#9D9D9D;
+			font-style: oblique;
+			font-weight: bold;
+		}
+			.btnfont:hover{
+				color:white;
+			}
+
+
+}
+.btndesign:hover{
+	color:white;
+	cursor:pointer;
+						
+}
+.navPad:hover{
+	color:#FCFCFC;
+}
+#topnav{
+	height: 50px;
+	}
+
+#navClass{
+	color:white;
+}
+#sidenav{
+height:2000px;
+width:85%;
+z-index:60;
+	position:absolute;
+	margin-left:-15px;
+}
+#sidenavbtn{
+	position:absolute;
+	
+}
+.fixednav{
+	width:100%;
+	position:fixed;
+}
+.dropDownStyle{
+	color:black;
+	background-color: grey;
+	margin-top: 100px;
+}
+.tempbtn{
+	position:absolute;
+	top:60px;
+	width:100%;
+}
+/* wrapper for main (iframe)*/
+.main{
+position:relative;
+	z-index:50;
+}
+
+.inactive{
+	display:none;
+}
+	/* BOXES IN MAIN */
+
+.collum{
+height:550px;
+width: 150px;
+float: left;
+margin-top:50px;
+margin-left: 130px;
+
+}
+
+.item {
+height:170px;
+width: 170px;
+margin-top:40px;
+padding: 0;
+text-decoration: none;
+list-style: none;
+border: 1px solid ;
+border-radius: 50%;
+background:  grey;
+
+}
+
+
+.content{
+font-size:14px;
+font-weight:normal;
+position:relative;
+border-radius: 50%;
+
+}
+.content img
+{
+width:50%;
+height:50px;
+margin-left: 1px;
+border-radius:50%;
+}
+
+/* this is the is for the top of the six buttons/links for each of the six boxes contained within the main div*/
+.top {
+	width:63%;
+	height:20%;
+	color: white;
+	margin:0 auto;
+	text-align:center;
+	padding: 2px 2px;
+	text-decoration:none;
+	list-style:none;
+	font-size: 15px;
+	font-weight: bold;
+	border-radius:50%;
+	background:blue;
+}
+	
+.top a {
+color:white;
+
+}
+.vis{
+
+	display:block;
+}
+.replacevis{
+	display:none;
+}
+@media (max-width: 1153px){
+	.collum{
+margin-left: 85px;
+}
+}
+@media (max-width: 1053px){
+	.collum{
+margin-left: 65px;
+}
+}
+@media (max-width: 913px){
+.collum{
+margin-left: 25px;
+}
+}
+@media (max-width: 869px){
+
+}
+@media (max-width: 767px) {
+	.vis{
+		display:none;
+	}
+	.collum{
+		margin-left: 50px;
+	}
+
+	#talkcontent{
+		width:100% !important;
+	}
+	.sidenavactive{
+		width:300% !important;
+		display:block ;
+	}
+
+}
+
+
+/* 
+        ******* Test data for  draggable *******
+*/
+
+.draggable{
+	width:200px;
+	height:200px;
+	background-color:black;
+}
+
+
+
+
+
+
+
+
+/* Test for dropdown */
+/*style the sub menu*/
+#topNav li ul {
+	border-top:1px solid #fff;
+	margin:0;
+	padding:0;
+}
+
+#topNav li ul li {
+	display:inline;
+	float:none;
+}
+
+#topNav li ul li a:link, #topNav  li ul li a:visited {
+	background-color:#09F;
+	width:auto;
+}
+
+#topNav  li ul li a:hover {
+	background-color:#0CF;	
+}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+	
+		.small {
+-webkit-transform: scale(0.7, 0.7);
+   -moz-transform: scale(0.7, 0.7);
+    -ms-transform: scale(0.7,0.7);
+        transform: scale(0.7, 0.7);
+
+}
+
+.vid {
+	
+-webkit-transition: -webkit-transform 1s ease-in;
+   -moz-transition: -moz-transform 1s ease-in;
+    transition: transform 1s ease-in;
+		
+height:200px;
+width: 200px;
+margin-top:40px;
+padding: 0;
+text-decoration: none;
+list-style: none;
+border: 1px solid ;
+border-radius: 50%;
+background:  grey;
+}
+
+
+.center{
+	width:93%;
+	height:40%;
+	background:green;
+	border-radius:50%;
+	margin: 0 auto;
+}
+
+
+.bottom{
+	width:75%;
+	height:38%;
+ƒ	background:red;
+	border-radius:50%;
+	margin: 0 auto;
+	text-align:center;
+	padding: 2px 2px;
+	text-decoration:none;
+	list-style:none;
+	font-size: 15px;
+	font-weight: bold;
+	color:white;
+}
+
+
+/* 
+  
+   * Style for talk information page 
+
+*/
+#wrapper{
+	width:100%;
+	height:100vh;
+}
+#talkcontent{
+	width:80%;
+	background:blue;
+	height:95%;
+	float:right;
+	margin-top: 60px;
+
+}
+
+#talkwrapper{
+   
+   margin: 0 auto;
+   width:95%;
+   height: 100%;
+   background-color:orange;
+}
+
+#talktimes{
+	
+	width:100%;
+	height:100%;
+}
+
+.talkholder{
+  padding:0px;
+  margin: 0px;
+  width:95%;
+  height:300px;
+  background-color: red;
+  border-left: 2px solid blue;
+  border-top:2px solid black;
+
+}
+
+.talkholder > li:hover{
+	border-left: 4px solid blue;
+}
+
+.holder{
+	width:100%;
+	height:100%;
+	background-color: yellow;
+}
+
+
+
+
+.time{
+
+	width:20%;
+	height:100%;
+	float:left;
+
+}
+
+.contentWrapper{
+	width:80%;
+	height:100%;
+	float:left;
+	background-color: red;
+}
+
+#daysnav{
+	width:50%;
+	margin: 0 auto;
+	display:inline-flex;
+}
+
+
+#styleMe{
+	height:300px;
+	width:300px;
+	background-color: orange;
+}
+
+.yellow{
+	color:yellow;
+}
+
+.tempStyleDraggable{
+	width:200px;
+	height:200px;
+}
+
+/*shift swapper*/
+.oneHour{
+	height:100px;
+	border-width:5px;
+	border-style:double;
+}

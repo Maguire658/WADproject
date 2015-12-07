@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Dundrum Town Centre</title>
+		<meta name="viewport" content="width=device-width,initial scale=1">
+		<link rel="stylesheet" href = "css/bootstrap.min.css" />
+		<link rel="stylesheet" href = "css/style.css" />
+		<link rel="stylesheet" type="text/css" href="bootstrap-3.3.5-dist/bootstrap-3.3.5-dist/css/bootstrap.min.css"/>
+
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+		
+	    <script type="text/javascript" src ="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script type="text/javascript" src ="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.js"></script>
+		<script type="text/javascript" src ="ui.js"></script>
+
+	    
+
+	
+	    
+	</head>
+	<body>
+		<nav class="navbar-inverse" id="home">
+			<div class "navbar-static-top">
+				<div class="container">
+					<div class="navbar-brand">
+						<a href="#">My Site</a>
+					</div>
+					<button class="navbar-toggle " data-toggle="collapse" data-target=".navHeaderCollapse">
+						Menu
+					</button>
+					
+					<div class="collapse navbar-collapse navHeaderCollapse">
+						<ul class="nav navbar-nav navbar-right">
+							<li><a href="#">Home</a></li>
+													
+						</ul>
+						
+					
+					</div>
+				</div>
+			</div>
+		</nav>
+		
+		<div class="jumbotron">
+			<div class="container">
+				<h1>Vaporwave Drinks</h1>
+				<p>Ride the wave</p>
+				<p>Feel the gains</p>
+				<p><a href="https://www.facebook.com/VaporwaveDrinks" target="_blank" class="btn btn-primary btn-lg">Facebook</a></p>
+				<p><a href="https://twitter.com/VaporwaveDrinks" target="_blank" class="btn btn-primary btn-lg">Twitter</a></p>
+			</div>
+		</div>
+		
+		
+		
+		<div class="colour1 padding" id="about">
+		
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6">
+					<h2 class="text-center">Shopping</h2>
+					<p class="text-justify">No matter the weather, Dundrum Town Centre is Irelands leading shopping destination.</p>
+					<a href="#one" class="btn btn-default">Tell me more</a>
+				</div>
+				
+				<div class="col-md-6">
+					<h2 class="text-center">Eating</h2>
+					<p class="text-justify">Food to match every mood at Dundrum Town Centre.</p>
+					<a href="#two" class="btn btn-default">Tell me more</a>
+				</div>
+				
+				
+				
+			
+			</div>
+		
+		</div>
+		
+		</div>
+		
+		
+		
+		<div class="container" id="portfolio">
+			<div class="row padding" id="one">
+				<div class="col-md-6">
+					<img src="cc.png" class="img-circle img-responsive" alt="Circular holding image"/>
+				</div>
+				
+				<div class="col-md-6">
+					<h2 class="text-center">Conradical</h2>
+					<p class="text-justify"> With over 100 stores to choose from, Dundrum offers unrivaled choice for all shoppers. </p>
+				</div>
+			</div>
+			<hr />
+			
+			<div class="row padding" id="two">
+				<div class="col-md-6">
+					<h2 class="text-center">Hasselheff</h2>
+					<p class="text-justify">Let's face it,  Those days of longing are gone with Hasselheff protein drink! With 20g of protein you'll soon find yourself lean and toned.</p>
+				</div>
+				
+				<div class="col-md-6">
+					<img src="heff.png" class="img-circle img-responsive" alt="Circular holding image"/>
+				</div>
+			
+			</div>
+			<hr />
+			<div class="row padding">
+			<h1>Shopping List</h1>
+			<div class="col-md-6">
+		<ul>
+			<li class ="item">Schuh</li>
+			<li class ="item">Elverys Sports</li>
+			<li class ="item">JD</li>
+			<li class ="item">Lifestyle Sports</li>
+		</div>
+		<div id="list" class="col-md-6"></div>
+		
+		</ul>
+			
+		
+		</div>
+		
+		
+			
+		<div class="alt2">
+			<div class="container">
+				`<footer>&copy; Vaporwave Drinks<br/ ><a href="#home">Back to top</a></footer>
+				
+			</div>
+		
+		</div>
+		<script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+		<script src="js/bootstrap.js"></script>
+		<script>$(function() {
+			$('a[href*=#]:not([href=#])').click(function() {
+			if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+			var target = $(this.hash);
+			target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+			if (target.length) {
+			$('html,body').animate({
+			scrollTop: target.offset().top
+			}, 1000);
+			return false;
+			}
+			}
+			});
+			});
+		</script>
+		
+		<script>
+			function myFunction() {
+			var x;
+			if (confirm("Do you want to Submit?") == true) 
+			document.getElementById("demo").innerHTML = x;
+			}
+		</script>
+		
+		<h1>Shopping List</h1>
+		
+		<script type="text/javascript" src ="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script type="text/javascript" src ="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.js"></script>
+		<script type="text/javascript" src ="ui.js"></script>
+	</body>
+</html>

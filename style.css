@@ -1,0 +1,17 @@
+ul{
+	width:100px;
+	padding:0px;
+	list-style: none;
+	
+}
+#list{
+	width:200px;
+	height:260px;
+	background-color: #f0f0f0;
+	border: 1px solid #000;
+	overflow:auto;
+}
+#list.border{
+	border-width:2px;
+	
+}

@@ -1,0 +1,33 @@
+.rssimg{
+    height:80px;
+    width:95%;
+}
+.rssdescrip{
+    color:white;
+    text-align:left;
+}
+#rsshead{
+   background: #0051C9;
+   border-radius:15px 15px 0px 0px;
+}
+
+#rsswrap{
+    text-align:center;
+    padding-bottom:15px;
+}
+
+#headlineTitle{
+    padding-top:20px;
+}
+#rsscontent{
+    background:#303030;
+	border-radius:0px 0px 15px 15px;
+	height:370px;
+	overflow:hidden;
+}
+#rsscontent:hover{
+		overflow-y:auto;
+}
+#rsshead{
+    color:white;
+}
